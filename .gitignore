@@ -1,0 +1,35 @@
+# moi truong va IDE
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# du lieu va ket qua nang (khong dua len Git)
+data/*
+!data/*.csv
+dataset/
+dataset_all/
+dataset_test/
+datasets/
+frames/
+runs/
+weights/
+models/
+feature_maps_layer10/
+_shrink_backup/
+
+# video, anh, trong so
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.pt
+*.pth
+*.onnx
+
+# ngoai le: hinh dung trong bao cao
+!docs/figures/*.png
+!docs/figures/*.jpg

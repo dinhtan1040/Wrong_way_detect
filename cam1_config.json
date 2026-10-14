@@ -1,0 +1,17 @@
+{
+  "_note": "VÍ DỤ cho video dọc 1080x1920 giống khung hình mẫu. Hãy vẽ lại bằng 02_draw_roi.py và kiểm tra chiều đi đúng ngoài thực tế. direction = vector (dx, dy) trong toạ độ ảnh: [0,-1] là đi lên (ra xa camera), [0,1] là đi xuống (về phía camera).",
+  "frame_size": [1080, 1920],
+  "lanes": [
+    {
+      "name": "lane_trai",
+      "polygon": [[0, 0], [440, 0], [490, 1230], [0, 1230]],
+      "direction": [0, 1]
+    },
+    {
+      "name": "lane_phai",
+      "polygon": [[575, 0], [1080, 0], [1080, 1230], [530, 1230]],
+      "direction": [0, -1]
+    }
+  ],
+  "params": {}
+}
